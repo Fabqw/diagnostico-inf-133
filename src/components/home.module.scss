@@ -1,0 +1,11 @@
+.card_cont {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    justify-content: center;
+    @media (max-width: 767px) {
+        grid-template-columns: 1fr; /* Change to a single column for mobile */
+    }
+}
